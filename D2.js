@@ -71,3 +71,4 @@ console.log("Questo è il risultato della comparazione diretta tra le due variab
 console.log( name1 === name2);
 console.log("ergo sono diversi, ma se applico 'lowercase' alle variabili otterrò:");
 console.log(name1.toLowerCase === name2.toLowerCase);
+console.log(name1 === name2.toLowerCase());
